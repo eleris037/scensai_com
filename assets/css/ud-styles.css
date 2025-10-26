@@ -502,8 +502,14 @@ p {
 
 /* ===== Hero CSS ===== */
 .ud-hero {
-  background: var(--primary-color);
+  position: relative;
+  background: linear-gradient(135deg, rgba(30, 27, 75, 0.9) 0%, rgba(49, 46, 129, 0.85) 50%, rgba(30, 58, 138, 0.9) 100%),
+              url('../images/hero/hero-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   padding-top: 180px;
+  overflow: hidden;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
