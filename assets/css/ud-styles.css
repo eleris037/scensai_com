@@ -503,7 +503,7 @@ p {
 /* ===== Hero CSS ===== */
 .ud-hero {
   position: relative;
-  background: linear-gradient(135deg, rgba(32, 79, 80, 0.95) 0%, rgba(32, 79, 80, 0.93) 50%, rgba(32, 79, 80, 0.90) 100%),
+  background: linear-gradient(135deg, rgba(32, 79, 80, 0.75) 0%, rgba(32, 79, 80, 0.73) 50%, rgba(32, 79, 80, 0.70) 100%),
               url('../images/hero/hero-background.jpg');
   background-size: cover;
   background-position: center;
