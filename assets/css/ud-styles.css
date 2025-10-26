@@ -531,7 +531,10 @@ p {
 }
 
 .ud-hero-content .ud-hero-title {
-  color: var(--white);
+  background: linear-gradient(135deg, #5DD3D4 0%, #204F50 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   font-weight: 700;
   font-size: 45px;
   line-height: 60px;
