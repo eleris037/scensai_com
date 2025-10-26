@@ -502,8 +502,34 @@ p {
 
 /* ===== Hero CSS ===== */
 .ud-hero {
-  background: var(--primary-color);
+  position: relative;
+  background: linear-gradient(135deg, #1e1b4b 0%, #312e81 50%, #1e3a8a 100%);
   padding-top: 180px;
+  overflow: hidden;
+}
+
+.ud-hero::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle at 30% 50%, rgba(59, 130, 246, 0.4) 0%, transparent 50%),
+              radial-gradient(circle at 70% 50%, rgba(139, 92, 246, 0.3) 0%, transparent 50%);
+  filter: blur(60px);
+  animation: heroFloat 20s ease-in-out infinite;
+  z-index: 0;
+}
+
+@keyframes heroFloat {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(20px, 20px); }
+}
+
+.ud-hero > * {
+  position: relative;
+  z-index: 1;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
