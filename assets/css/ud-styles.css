@@ -526,7 +526,7 @@ p {
 }
 
 .ud-hero-content {
-  max-width: 1020px;
+  max-width: 1010px;
   margin: auto;
   margin-bottom: 30px;
 }
@@ -576,7 +576,7 @@ p {
   text-align: left;
   color: var(--white);
   opacity: 0.8;
-  max-width: 1020px;
+  max-width: 1010px;
   margin: auto;
   margin-bottom: 20px;
 }
