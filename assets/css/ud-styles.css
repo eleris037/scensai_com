@@ -532,15 +532,26 @@ p {
 }
 
 .ud-hero-content .ud-hero-title {
-  background: linear-gradient(135deg, #9ADCDD 0%, #5DD3D4 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
   font-weight: 700;
   font-size: 60px;
   line-height: 75px;
   text-align: center;
   margin-bottom: 30px;
+}
+
+.ud-hero-content .ud-hero-title .white-text {
+  color: var(--white);
+  display: block;
+  font-weight: 400;
+}
+
+.ud-hero-content .ud-hero-title .gradient-text {
+  background: linear-gradient(135deg, #5DD3D4 0%, #204F50 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: block;
+  font-weight: 700;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
