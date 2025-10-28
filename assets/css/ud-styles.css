@@ -586,7 +586,7 @@ p {
 }
 
 .ud-hero-desc.intro {
-  margin-top: -30px;
+  margin-top: -15px;
 }
 @media (max-width: 767px) {
   .ud-hero-content .ud-hero-desc {
