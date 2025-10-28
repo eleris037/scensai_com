@@ -585,6 +585,9 @@ p {
   font-weight: 500;
 }
 
+.ud-hero-desc intro {
+  font-weight: 800;
+}
 @media (max-width: 767px) {
   .ud-hero-content .ud-hero-desc {
     font-size: 16px;
