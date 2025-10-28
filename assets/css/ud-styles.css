@@ -552,7 +552,7 @@ p {
   background-clip: text;
   display: block;
   font-weight: 800;
-  margin-top: -80px;
+  margin-top: -20px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
