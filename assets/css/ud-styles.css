@@ -546,7 +546,7 @@ p {
 }
 
 .ud-hero-content .ud-hero-title .gradient-text {
-  background: linear-gradient(135deg, #204F50 0%, #5DD3D4 100%);
+  background: linear-gradient(135deg, #2A6465 0%, #5DD3D4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
