@@ -573,7 +573,7 @@ p {
   font-weight: normal;
   font-size: 20px;
   line-height: 35px;
-  text-align: center;
+  text-align: left;
   color: var(--white);
   opacity: 0.8;
   max-width: 600px;
