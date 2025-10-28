@@ -582,7 +582,7 @@ p {
 }
 
 .ud-hero-desc.bold-intro {
-  font-weight: 700;
+  font-weight: 500;
 }
 
 @media (max-width: 767px) {
