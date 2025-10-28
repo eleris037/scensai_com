@@ -1238,6 +1238,7 @@ p {
 .ud-team {
   padding-top: 120px;
   padding-bottom: 80px;
+  font-weight: 800;
 }
 
 @media (max-width: 767px) {
@@ -1289,7 +1290,7 @@ p {
 
 .ud-single-team .ud-team-info h5 {
   font-weight: 500;
-  font-size: 48px;
+  font-size: 18px;
   text-transform: capitalize;
   margin-bottom: 10px;
 }
