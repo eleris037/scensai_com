@@ -526,7 +526,7 @@ p {
 }
 
 .ud-hero-content {
-  max-width: 100%;
+  max-width: 1000px;
   margin: auto;
   margin-bottom: 30px;
 }
